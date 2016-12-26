@@ -1,0 +1,26 @@
+#Body{
+    position:absolute; 
+
+}
+#Boks01,#Boks02,#Boks03{
+    width:100px;
+    height:100px;
+
+}
+#Boks01{
+    margin-top:50px;
+    margin-left:100px;
+    background-color:red;
+}
+
+#Boks02{
+    margin-top:100px;
+    margin-left:150px;
+    background-color:yellow;
+}
+
+#Boks03{
+    margin-top:75px;
+    margin-left:120px;
+    background-color:green;
+}
