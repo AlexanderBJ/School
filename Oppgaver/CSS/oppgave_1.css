@@ -1,26 +1,29 @@
-#Body{
-    position:absolute; 
 
+#Body div{
+    border:2px solid black; /*så vi kan se boksene uten ID*/
+    width:100px;    /*Setter Bredden på Boksene*/
+    height:100px;   /*Setter Høyden på Boksene*/
+    margin:20px;
 }
+
 #Boks01,#Boks02,#Boks03{
-    width:100px;
-    height:100px;
-
+    border:none;
 }
+
 #Boks01{
-    margin-top:50px;
-    margin-left:100px;
-    background-color:red;
+    margin-top:50px;            /*Setter marginene rundt boksen*/
+    margin-left:100px;         /*Setter marginene rundt boksen*/
+    background-color:red;   /*Rød farge på denen boksen*/
 }
 
 #Boks02{
     margin-top:100px;
     margin-left:150px;
-    background-color:yellow;
+    background-color:yellow;    /*Gul farge på denne boksen*/
 }
 
 #Boks03{
     margin-top:75px;
     margin-left:120px;
-    background-color:green;
+    background-color:green;     /*Grønn farge på denne boksen*/
 }
