@@ -7,3 +7,22 @@
     margin:20px;
 
 }/*Class-en alle har*/
+
+.square{
+    width:100px;
+    height:100px;
+}
+.rectangle{
+    width:100px;
+    height:200px;
+}
+.red{
+    background-color:red;
+}
+
+.blue{
+    background-color:blue;
+}
+.border{
+    border:5px solid tomato;
+}
