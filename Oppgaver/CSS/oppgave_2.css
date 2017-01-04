@@ -1,28 +1,27 @@
 .Box{
-    border:2px solid black;
-    width:100px;
-    height:100px;
-    display: inline-block;
-    padding:5px;
-    margin:20px;
-
-}/*Class-en alle har*/
+    border:2px solid black; /*Bord rundt rektangelet*/
+    width:100px;/*Bredde*/
+    height:100px;/*Høyde*/
+    display: inline-block;/*Sikrer at blokkene kommer nedover, ikke på linje*/
+    padding:5px;/*boksen får 5 pixler med arm rom*/
+    margin:20px;/*Boksen dytter elementer 20px vekk frea seg*/
+    }
 
 .square{
-    width:100px;
-    height:100px;
+    width:100px;/*Lengde på boksen*/
+    height:100px;/*Bredde på boksen*/
 }
 .rectangle{
-    width:100px;
-    height:200px;
+    width:100px;/*Lengde på boksen*/
+    height:200px;/*Bredde på boksen*/
 }
 .red{
-    background-color:red;
+    background-color:red;/*Rød bakgrun*/
 }
 
 .blue{
-    background-color:blue;
+    background-color:blue;/*Blå bakgrun*/
 }
 .border{
-    border:5px solid tomato;
+    border:5px solid tomato;/*Tomat bakgrun*/
 }
