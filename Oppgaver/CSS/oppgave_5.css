@@ -1,10 +1,10 @@
 .Box{
-    border:2px solid black;
-    width:100px;
-    height:100px;
-    display: inline-block;
-    padding:5px;
-    margin:20px;
+    border:2px solid black; /*Bord rundt rektangelet*/
+    width:100px;/*Bredde*/
+    height:100px;/*Høyde*/
+    display: inline-block;/*Sikrer at blokkene kommer nedover, ikke på linje*/
+    padding:5px;/*boksen får 5 pixler med arm rom*/
+    margin:20px;/*Boksen dytter elementer 20px vekk frea seg*/
 
 }
 
