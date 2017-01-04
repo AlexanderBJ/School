@@ -1,0 +1,17 @@
+.Box{
+    border:2px solid black;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    padding:5px;
+    margin:20px;
+
+}
+
+.Box:hover{
+
+
+}
+.Box:focus{
+    background-color:red;
+}

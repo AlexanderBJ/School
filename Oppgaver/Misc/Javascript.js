@@ -32,14 +32,18 @@ function H(){
 
 function A(name){
     document.head.innerHTML = head;
-   
     Body = document.getElementById("Body");
+    Link = document.getElementById("Css");
    
     var HTML = new XMLHttpRequest();
     HTML.onreadystatechange = function(){
             if(this.readyState == 4){
                 Body.innerHTML = this.responseText;
-                addlink()
+                try{
+                addlink();
+                }catch(err){
+
+                }
             }}   
 
     HTML.open("GET","HTML/"+name+".html");
