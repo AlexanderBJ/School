@@ -11,19 +11,19 @@
 }
 
 #Boks01{
-    margin-top:50px;            /*Setter marginene rundt boksen*/
-    margin-left:100px;         /*Setter marginene rundt boksen*/
-    background-color:red;   /*Rød farge på denen boksen*/
+    margin: 20px 30px 100px 100px !important;
+    background-color:rgba(255,150,90,.5);   /*Rød farge på denen boksen*/
+    margin-bottom: 100px !important;
 }
 
 #Boks02{
-    margin-top:100px;
-    margin-left:150px;
-    background-color:yellow;    /*Gul farge på denne boksen*/
+    margin-top:100px !important;
+    margin-left:170px !important;
+    background-color:rgba(0,255,100,0.5);    /*Gul farge på denne boksen*/
 }
 
 #Boks03{
-    margin-top:75px;
-    margin-left:120px;
-    background-color:green;     /*Grønn farge på denne boksen*/
+    margin-top:75px !important;
+    margin-left:120px !important;
+    background-color:rgba(100,0,255,.3);     /*Grønn farge på denne boksen*/
 }
