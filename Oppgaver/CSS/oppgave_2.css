@@ -8,12 +8,12 @@
     }
 
 .square{
-    width:100px;/*Lengde på boksen*/
-    height:100px;/*Bredde på boksen*/
+    width:100px !important;/*Lengde på boksen*/
+    height:100px !important;/*Bredde på boksen*/
 }
 .rectangle{
-    width:100px;/*Lengde på boksen*/
-    height:200px;/*Bredde på boksen*/
+    width:100px !important;/*Lengde på boksen*/
+    height:200px !important;/*Bredde på boksen*/
 }
 .red{
     background-color:red;/*Rød bakgrun*/
@@ -24,4 +24,14 @@
 }
 .border{
     border:5px solid tomato;/*Tomat bakgrun*/
+}
+.magenta{
+    background-color:magenta;
+
+}
+.cirkle{
+   border-radius: 50%;
+}
+.yellow{
+    background-color:yellow
 }

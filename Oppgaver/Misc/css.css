@@ -17,4 +17,8 @@ a{
 #Body{
     padding:2px;
     width:100%;
+   
+}
+body{
+     background-color:rgba(200,200,200,.4)
 }

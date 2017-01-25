@@ -14,6 +14,7 @@
     margin: 20px 30px 100px 100px !important;
     background-color:rgba(255,150,90,.5);   /*Rød farge på denen boksen*/
     margin-bottom: 100px !important;
+    width:200px !important;
 }
 
 #Boks02{
