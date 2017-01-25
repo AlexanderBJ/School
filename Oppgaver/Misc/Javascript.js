@@ -10,8 +10,8 @@ document.head.innerHTML = head;
 var Body;
 var Link;
 
-var Body = document.getElementById("Body");
-var Link = document.getElementById("Css");
+Body = document.getElementById("Body");
+Link = document.getElementById("Css");
 
 var Home = '<p><h1>Velkommen!</h1>';
 Home += "<h3>Her finner du oppgavene</h3>";
@@ -20,10 +20,7 @@ Home += '<br/>Filene til hver oppgave finner du under CSS eller HTML.<br/>Hvis d
 
 function addlink(){
     a = Body.getElementsByTagName("link");
-    for(var i=0;i<a.length();i++){
-        document.head.append(a[i]); 
-    };
-    
+    document.head.append(a[0]);
 };
 
 function H(){
@@ -38,13 +35,11 @@ function A(name){
     var HTML = new XMLHttpRequest();
     HTML.onreadystatechange = function(){
             if(this.readyState == 4){
+                Body = document.getElementById("Body");
                 Body.innerHTML = this.responseText;
-                try{
                 addlink();
-                }catch(err){
-
                 }
-            }}   
+            }   
 
     HTML.open("GET","HTML/"+name+".html");
     HTML.send();
